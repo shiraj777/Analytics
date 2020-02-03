@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BCD6017B07C4E4B3507F5ED /* Pods_MicrosoftApplicationInsightsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89572811D236428837702841 /* Pods_MicrosoftApplicationInsightsTests.framework */; };
+		7CC102D523E6AD03002CCCCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC102D423E6AD03002CCCCF /* AppDelegate.swift */; };
+		7CC102D723E6AD03002CCCCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC102D623E6AD03002CCCCF /* SceneDelegate.swift */; };
+		7CC102D923E6AD03002CCCCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC102D823E6AD03002CCCCF /* ViewController.swift */; };
+		7CC102DC23E6AD03002CCCCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC102DA23E6AD03002CCCCF /* Main.storyboard */; };
+		7CC102DF23E6AD03002CCCCF /* MicrosoftApplicationInsights.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CC102DD23E6AD03002CCCCF /* MicrosoftApplicationInsights.xcdatamodeld */; };
+		7CC102E123E6AD07002CCCCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CC102E023E6AD07002CCCCF /* Assets.xcassets */; };
+		7CC102E423E6AD07002CCCCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CC102E223E6AD07002CCCCF /* LaunchScreen.storyboard */; };
+		7CC102EF23E6AD07002CCCCF /* MicrosoftApplicationInsightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC102EE23E6AD07002CCCCF /* MicrosoftApplicationInsightsTests.swift */; };
+		7CC102FA23E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC102F923E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests.swift */; };
+		E74E3B6461F5215741A6146E /* Pods_MicrosoftApplicationInsights_MicrosoftApplicationInsightsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C1297DC2DC5A91FC9C6292E /* Pods_MicrosoftApplicationInsights_MicrosoftApplicationInsightsUITests.framework */; };
+		FDCCDE740B53D4EBC734A196 /* Pods_MicrosoftApplicationInsights.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FFDE409001D8F802AA7E34C /* Pods_MicrosoftApplicationInsights.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CC102EB23E6AD07002CCCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC102C923E6AD03002CCCCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC102D023E6AD03002CCCCF;
+			remoteInfo = MicrosoftApplicationInsights;
+		};
+		7CC102F623E6AD07002CCCCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CC102C923E6AD03002CCCCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CC102D023E6AD03002CCCCF;
+			remoteInfo = MicrosoftApplicationInsights;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0263AE7D64B8A10CB2467992 /* Pods-MicrosoftApplicationInsightsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicrosoftApplicationInsightsTests.debug.xcconfig"; path = "Target Support Files/Pods-MicrosoftApplicationInsightsTests/Pods-MicrosoftApplicationInsightsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1492D6FE2B3B9DD82A0D860B /* Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests.release.xcconfig"; path = "Target Support Files/Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests/Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4FBC678693FF1E617A106B5F /* Pods-MicrosoftApplicationInsights.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicrosoftApplicationInsights.release.xcconfig"; path = "Target Support Files/Pods-MicrosoftApplicationInsights/Pods-MicrosoftApplicationInsights.release.xcconfig"; sourceTree = "<group>"; };
+		5FFDE409001D8F802AA7E34C /* Pods_MicrosoftApplicationInsights.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicrosoftApplicationInsights.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		610979A6CD0662BC25465DB8 /* Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests.debug.xcconfig"; path = "Target Support Files/Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests/Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1297DC2DC5A91FC9C6292E /* Pods_MicrosoftApplicationInsights_MicrosoftApplicationInsightsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicrosoftApplicationInsights_MicrosoftApplicationInsightsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC102D123E6AD03002CCCCF /* MicrosoftApplicationInsights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrosoftApplicationInsights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC102D423E6AD03002CCCCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7CC102D623E6AD03002CCCCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7CC102D823E6AD03002CCCCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7CC102DB23E6AD03002CCCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7CC102DE23E6AD03002CCCCF /* MicrosoftApplicationInsights.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MicrosoftApplicationInsights.xcdatamodel; sourceTree = "<group>"; };
+		7CC102E023E6AD07002CCCCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CC102E323E6AD07002CCCCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7CC102E523E6AD07002CCCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC102EA23E6AD07002CCCCF /* MicrosoftApplicationInsightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrosoftApplicationInsightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC102EE23E6AD07002CCCCF /* MicrosoftApplicationInsightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrosoftApplicationInsightsTests.swift; sourceTree = "<group>"; };
+		7CC102F023E6AD07002CCCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CC102F523E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrosoftApplicationInsightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CC102F923E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrosoftApplicationInsightsUITests.swift; sourceTree = "<group>"; };
+		7CC102FB23E6AD07002CCCCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CDD0F8DB96918180F4ED149 /* Pods-MicrosoftApplicationInsights.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicrosoftApplicationInsights.debug.xcconfig"; path = "Target Support Files/Pods-MicrosoftApplicationInsights/Pods-MicrosoftApplicationInsights.debug.xcconfig"; sourceTree = "<group>"; };
+		89572811D236428837702841 /* Pods_MicrosoftApplicationInsightsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MicrosoftApplicationInsightsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06E076E131E389E0686DAED /* Pods-MicrosoftApplicationInsightsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MicrosoftApplicationInsightsTests.release.xcconfig"; path = "Target Support Files/Pods-MicrosoftApplicationInsightsTests/Pods-MicrosoftApplicationInsightsTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CC102CE23E6AD03002CCCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDCCDE740B53D4EBC734A196 /* Pods_MicrosoftApplicationInsights.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC102E723E6AD07002CCCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BCD6017B07C4E4B3507F5ED /* Pods_MicrosoftApplicationInsightsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC102F223E6AD07002CCCCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E74E3B6461F5215741A6146E /* Pods_MicrosoftApplicationInsights_MicrosoftApplicationInsightsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CC102C823E6AD03002CCCCF = {
+			isa = PBXGroup;
+			children = (
+				7CC102D323E6AD03002CCCCF /* MicrosoftApplicationInsights */,
+				7CC102ED23E6AD07002CCCCF /* MicrosoftApplicationInsightsTests */,
+				7CC102F823E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests */,
+				7CC102D223E6AD03002CCCCF /* Products */,
+				E5953385C28CB4F7452A49CA /* Pods */,
+				EF12333EE5DC11C817E33A3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CC102D223E6AD03002CCCCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CC102D123E6AD03002CCCCF /* MicrosoftApplicationInsights.app */,
+				7CC102EA23E6AD07002CCCCF /* MicrosoftApplicationInsightsTests.xctest */,
+				7CC102F523E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CC102D323E6AD03002CCCCF /* MicrosoftApplicationInsights */ = {
+			isa = PBXGroup;
+			children = (
+				7CC102D423E6AD03002CCCCF /* AppDelegate.swift */,
+				7CC102D623E6AD03002CCCCF /* SceneDelegate.swift */,
+				7CC102D823E6AD03002CCCCF /* ViewController.swift */,
+				7CC102DA23E6AD03002CCCCF /* Main.storyboard */,
+				7CC102E023E6AD07002CCCCF /* Assets.xcassets */,
+				7CC102E223E6AD07002CCCCF /* LaunchScreen.storyboard */,
+				7CC102E523E6AD07002CCCCF /* Info.plist */,
+				7CC102DD23E6AD03002CCCCF /* MicrosoftApplicationInsights.xcdatamodeld */,
+			);
+			path = MicrosoftApplicationInsights;
+			sourceTree = "<group>";
+		};
+		7CC102ED23E6AD07002CCCCF /* MicrosoftApplicationInsightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC102EE23E6AD07002CCCCF /* MicrosoftApplicationInsightsTests.swift */,
+				7CC102F023E6AD07002CCCCF /* Info.plist */,
+			);
+			path = MicrosoftApplicationInsightsTests;
+			sourceTree = "<group>";
+		};
+		7CC102F823E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7CC102F923E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests.swift */,
+				7CC102FB23E6AD07002CCCCF /* Info.plist */,
+			);
+			path = MicrosoftApplicationInsightsUITests;
+			sourceTree = "<group>";
+		};
+		E5953385C28CB4F7452A49CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CDD0F8DB96918180F4ED149 /* Pods-MicrosoftApplicationInsights.debug.xcconfig */,
+				4FBC678693FF1E617A106B5F /* Pods-MicrosoftApplicationInsights.release.xcconfig */,
+				610979A6CD0662BC25465DB8 /* Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests.debug.xcconfig */,
+				1492D6FE2B3B9DD82A0D860B /* Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests.release.xcconfig */,
+				0263AE7D64B8A10CB2467992 /* Pods-MicrosoftApplicationInsightsTests.debug.xcconfig */,
+				D06E076E131E389E0686DAED /* Pods-MicrosoftApplicationInsightsTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF12333EE5DC11C817E33A3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5FFDE409001D8F802AA7E34C /* Pods_MicrosoftApplicationInsights.framework */,
+				7C1297DC2DC5A91FC9C6292E /* Pods_MicrosoftApplicationInsights_MicrosoftApplicationInsightsUITests.framework */,
+				89572811D236428837702841 /* Pods_MicrosoftApplicationInsightsTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CC102D023E6AD03002CCCCF /* MicrosoftApplicationInsights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC102FE23E6AD07002CCCCF /* Build configuration list for PBXNativeTarget "MicrosoftApplicationInsights" */;
+			buildPhases = (
+				770ACAB05A1F376C17B625F6 /* [CP] Check Pods Manifest.lock */,
+				7CC102CD23E6AD03002CCCCF /* Sources */,
+				7CC102CE23E6AD03002CCCCF /* Frameworks */,
+				7CC102CF23E6AD03002CCCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicrosoftApplicationInsights;
+			productName = MicrosoftApplicationInsights;
+			productReference = 7CC102D123E6AD03002CCCCF /* MicrosoftApplicationInsights.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CC102E923E6AD07002CCCCF /* MicrosoftApplicationInsightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC1030123E6AD07002CCCCF /* Build configuration list for PBXNativeTarget "MicrosoftApplicationInsightsTests" */;
+			buildPhases = (
+				561E5B835585D03635807A01 /* [CP] Check Pods Manifest.lock */,
+				7CC102E623E6AD07002CCCCF /* Sources */,
+				7CC102E723E6AD07002CCCCF /* Frameworks */,
+				7CC102E823E6AD07002CCCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC102EC23E6AD07002CCCCF /* PBXTargetDependency */,
+			);
+			name = MicrosoftApplicationInsightsTests;
+			productName = MicrosoftApplicationInsightsTests;
+			productReference = 7CC102EA23E6AD07002CCCCF /* MicrosoftApplicationInsightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7CC102F423E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CC1030423E6AD07002CCCCF /* Build configuration list for PBXNativeTarget "MicrosoftApplicationInsightsUITests" */;
+			buildPhases = (
+				15ED79E004B5B60529DA5288 /* [CP] Check Pods Manifest.lock */,
+				7CC102F123E6AD07002CCCCF /* Sources */,
+				7CC102F223E6AD07002CCCCF /* Frameworks */,
+				7CC102F323E6AD07002CCCCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CC102F723E6AD07002CCCCF /* PBXTargetDependency */,
+			);
+			name = MicrosoftApplicationInsightsUITests;
+			productName = MicrosoftApplicationInsightsUITests;
+			productReference = 7CC102F523E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CC102C923E6AD03002CCCCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "shira janach";
+				TargetAttributes = {
+					7CC102D023E6AD03002CCCCF = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					7CC102E923E6AD07002CCCCF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7CC102D023E6AD03002CCCCF;
+					};
+					7CC102F423E6AD07002CCCCF = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 7CC102D023E6AD03002CCCCF;
+					};
+				};
+			};
+			buildConfigurationList = 7CC102CC23E6AD03002CCCCF /* Build configuration list for PBXProject "MicrosoftApplicationInsights" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CC102C823E6AD03002CCCCF;
+			productRefGroup = 7CC102D223E6AD03002CCCCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CC102D023E6AD03002CCCCF /* MicrosoftApplicationInsights */,
+				7CC102E923E6AD07002CCCCF /* MicrosoftApplicationInsightsTests */,
+				7CC102F423E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CC102CF23E6AD03002CCCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC102E423E6AD07002CCCCF /* LaunchScreen.storyboard in Resources */,
+				7CC102E123E6AD07002CCCCF /* Assets.xcassets in Resources */,
+				7CC102DC23E6AD03002CCCCF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC102E823E6AD07002CCCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC102F323E6AD07002CCCCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15ED79E004B5B60529DA5288 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		561E5B835585D03635807A01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicrosoftApplicationInsightsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		770ACAB05A1F376C17B625F6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MicrosoftApplicationInsights-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CC102CD23E6AD03002CCCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC102DF23E6AD03002CCCCF /* MicrosoftApplicationInsights.xcdatamodeld in Sources */,
+				7CC102D923E6AD03002CCCCF /* ViewController.swift in Sources */,
+				7CC102D523E6AD03002CCCCF /* AppDelegate.swift in Sources */,
+				7CC102D723E6AD03002CCCCF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC102E623E6AD07002CCCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC102EF23E6AD07002CCCCF /* MicrosoftApplicationInsightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CC102F123E6AD07002CCCCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CC102FA23E6AD07002CCCCF /* MicrosoftApplicationInsightsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CC102EC23E6AD07002CCCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC102D023E6AD03002CCCCF /* MicrosoftApplicationInsights */;
+			targetProxy = 7CC102EB23E6AD07002CCCCF /* PBXContainerItemProxy */;
+		};
+		7CC102F723E6AD07002CCCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CC102D023E6AD03002CCCCF /* MicrosoftApplicationInsights */;
+			targetProxy = 7CC102F623E6AD07002CCCCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7CC102DA23E6AD03002CCCCF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC102DB23E6AD03002CCCCF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7CC102E223E6AD07002CCCCF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CC102E323E6AD07002CCCCF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CC102FC23E6AD07002CCCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CC102FD23E6AD07002CCCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CC102FF23E6AD07002CCCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDD0F8DB96918180F4ED149 /* Pods-MicrosoftApplicationInsights.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZYKW4UT7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MicrosoftApplicationInsights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richemont.MicrosoftApplicationInsights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7CC1030023E6AD07002CCCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FBC678693FF1E617A106B5F /* Pods-MicrosoftApplicationInsights.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZYKW4UT7;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = MicrosoftApplicationInsights/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richemont.MicrosoftApplicationInsights;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7CC1030223E6AD07002CCCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0263AE7D64B8A10CB2467992 /* Pods-MicrosoftApplicationInsightsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZYKW4UT7;
+				INFOPLIST_FILE = MicrosoftApplicationInsightsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richemont.MicrosoftApplicationInsightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicrosoftApplicationInsights.app/MicrosoftApplicationInsights";
+			};
+			name = Debug;
+		};
+		7CC1030323E6AD07002CCCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D06E076E131E389E0686DAED /* Pods-MicrosoftApplicationInsightsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZYKW4UT7;
+				INFOPLIST_FILE = MicrosoftApplicationInsightsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richemont.MicrosoftApplicationInsightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicrosoftApplicationInsights.app/MicrosoftApplicationInsights";
+			};
+			name = Release;
+		};
+		7CC1030523E6AD07002CCCCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 610979A6CD0662BC25465DB8 /* Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZYKW4UT7;
+				INFOPLIST_FILE = MicrosoftApplicationInsightsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richemont.MicrosoftApplicationInsightsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicrosoftApplicationInsights;
+			};
+			name = Debug;
+		};
+		7CC1030623E6AD07002CCCCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1492D6FE2B3B9DD82A0D860B /* Pods-MicrosoftApplicationInsights-MicrosoftApplicationInsightsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W8ZYKW4UT7;
+				INFOPLIST_FILE = MicrosoftApplicationInsightsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.richemont.MicrosoftApplicationInsightsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicrosoftApplicationInsights;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CC102CC23E6AD03002CCCCF /* Build configuration list for PBXProject "MicrosoftApplicationInsights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC102FC23E6AD07002CCCCF /* Debug */,
+				7CC102FD23E6AD07002CCCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC102FE23E6AD07002CCCCF /* Build configuration list for PBXNativeTarget "MicrosoftApplicationInsights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC102FF23E6AD07002CCCCF /* Debug */,
+				7CC1030023E6AD07002CCCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC1030123E6AD07002CCCCF /* Build configuration list for PBXNativeTarget "MicrosoftApplicationInsightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC1030223E6AD07002CCCCF /* Debug */,
+				7CC1030323E6AD07002CCCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CC1030423E6AD07002CCCCF /* Build configuration list for PBXNativeTarget "MicrosoftApplicationInsightsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CC1030523E6AD07002CCCCF /* Debug */,
+				7CC1030623E6AD07002CCCCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CC102DD23E6AD03002CCCCF /* MicrosoftApplicationInsights.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CC102DE23E6AD03002CCCCF /* MicrosoftApplicationInsights.xcdatamodel */,
+			);
+			currentVersion = 7CC102DE23E6AD03002CCCCF /* MicrosoftApplicationInsights.xcdatamodel */;
+			path = MicrosoftApplicationInsights.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CC102C923E6AD03002CCCCF /* Project object */;
+}
